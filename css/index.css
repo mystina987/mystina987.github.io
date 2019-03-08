@@ -1,0 +1,50 @@
+body{
+    margin-top: 2em;
+    display: flex;
+    background: #f5f4f4;
+}
+
+a{
+    color: #4665b7;
+    text-decoration: none;
+}
+
+a:hover{
+    border-bottom: solid 2px;
+}
+
+li{
+    margin: 0.3em;
+    list-style-type: none;
+}
+
+.center{
+    max-width: 76em;
+    margin: auto;
+    animation: fade-in 1s;
+}
+
+.name-title{
+    text-align: center;
+}
+
+
+.avatar{
+    display: block ;
+    width: 200px;
+    height: auto;
+    margin: auto;
+    border-radius: 50%;
+    box-shadow: -1px 0px 20px 9px #e7d2d2;
+}
+
+@keyframes fade-in{
+    from{
+        opacity: 0;
+        transform: translateY(100px);
+    }
+    to{
+        opacity: 1;
+        transform: translateY(0px);
+    }
+}
