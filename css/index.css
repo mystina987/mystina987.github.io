@@ -18,18 +18,18 @@ li{
     list-style-type: none;
 }
 
-.center{
+.section-main{
     max-width: 76em;
     margin: auto;
-    animation: fade-in 1s;
+    animation: fade-in 2s;
 }
 
-.name-title{
+.section-title{
     text-align: center;
 }
 
 
-.avatar{
+.section-profile-picture{
     display: block ;
     width: 200px;
     height: auto;
